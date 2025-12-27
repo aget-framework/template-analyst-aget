@@ -1,0 +1,33 @@
+# D4: SKILLS - A-SDLC Phase Mapping
+# Template: template-analyst-aget
+# Version: 3.0.0
+
+asdlc_phases:
+  primary:
+    - phase: 0
+      name: Discovery
+      activities:
+        - Data gathering
+        - Exploratory analysis
+        - Trend identification
+      intensity: high
+
+    - phase: 1
+      name: Specification
+      activities:
+        - Requirements analysis
+        - Feasibility assessment
+        - Constraint identification
+      intensity: high
+
+    - phase: 4
+      name: Validation
+      activities:
+        - Test result analysis
+        - Quality metrics
+        - Gap analysis
+      intensity: high
+
+  secondary: []
+
+  cross_cutting: []

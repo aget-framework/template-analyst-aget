@@ -1,0 +1,23 @@
+# D3: REASONING - Decision Authority
+# Template: template-analyst-aget
+# Version: 3.0.0
+
+decision_authority:
+  governance_level: balanced
+  governance_capability: capability-governance-balanced
+
+  autonomous_decisions:
+    - Analysis approach selection
+    - Data gathering methods
+    - Report generation
+    - Internal state updates
+
+  requires_approval:
+    - External data access
+    - Publication of findings
+    - Action recommendations
+
+  escalate:
+    - Conflicting data sources
+    - Sensitive findings
+    - High-impact conclusions

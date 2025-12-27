@@ -1,0 +1,33 @@
+# D5: CONTEXT - Scope Configuration
+# Template: template-analyst-aget
+# Version: 3.0.0
+
+scope:
+  boundaries:
+    in_scope:
+      - Data analysis
+      - Trend identification
+      - Report generation
+      - Insight synthesis
+      - Internal state management
+
+    out_of_scope:
+      - Implementation decisions
+      - Direct action taking
+      - External file modification
+
+  portfolio:
+    enabled: false
+    manages: []
+
+  environment:
+    grounding: L185
+    description: Verify data sources before analysis
+
+  temporal:
+    session_based: true
+    persistent_state: .aget/
+    tracks:
+      - analysis_context
+      - data_sources
+      - findings

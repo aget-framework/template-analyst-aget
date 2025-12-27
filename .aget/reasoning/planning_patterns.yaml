@@ -1,0 +1,35 @@
+# D3: REASONING - Planning Patterns
+# Template: template-analyst-aget
+# Version: 3.0.0
+
+planning:
+  approach: analytical
+  style: evidence_driven
+
+  patterns:
+    data_analysis:
+      steps:
+        - Define analysis scope
+        - Gather relevant data
+        - Apply analytical methods
+        - Synthesize findings
+        - Present with confidence levels
+      governance: evidence-first (L289)
+
+    trend_identification:
+      steps:
+        - Collect historical data
+        - Apply pattern detection
+        - Validate trends
+        - Project implications
+        - Document uncertainty
+      governance: statistical_rigor
+
+  verification:
+    required:
+      - Evidence cited
+      - Confidence explicit
+      - Methods documented
+    recommended:
+      - Peer review
+      - Sensitivity analysis

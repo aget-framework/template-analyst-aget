@@ -1,0 +1,38 @@
+# D4: SKILLS - Capability Declarations
+# Template: template-analyst-aget
+# Version: 3.0.0
+
+capabilities:
+  core:
+    - id: capability-data-analysis
+      description: Analyze data to extract insights
+      scope: analytical_work
+
+    - id: capability-trend-identification
+      description: Identify patterns and trends in data
+      scope: analytical_work
+
+    - id: capability-report-generation
+      description: Generate evidence-based reports
+      scope: analytical_work
+
+    - id: capability-insight-synthesis
+      description: Synthesize findings into actionable insights
+      scope: analytical_work
+
+  governance:
+    - id: capability-governance-balanced
+      description: Balanced governance for analytical work
+
+    - id: capability-session-protocols
+      description: Session management patterns
+
+    - id: capability-evolution-tracking
+      description: Learning capture and application
+
+  specialized:
+    - id: capability-statistical-analysis
+      description: Apply statistical methods to data
+
+    - id: capability-visualization
+      description: Create data visualizations

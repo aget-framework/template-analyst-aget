@@ -1,0 +1,35 @@
+# D5: CONTEXT - Agent Relationships
+# Template: template-analyst-aget
+# Version: 3.0.0
+
+relationships:
+  managed_by:
+    - role: supervisor
+      template: template-supervisor-aget
+      interaction: analysis_coordination
+
+  peers:
+    - role: executive
+      template: template-executive-aget
+      interaction: insight_provision
+
+    - role: researcher
+      template: template-researcher-aget
+      interaction: data_sharing
+
+  manages: []
+
+  consumers:
+    - role: decision_makers
+      deliverable: analysis_reports
+    - role: planners
+      deliverable: trend_insights
+
+  communication:
+    upstream:
+      - Analysis reports
+      - Insight summaries
+    downstream: []
+    lateral:
+      - Data sharing
+      - Method validation

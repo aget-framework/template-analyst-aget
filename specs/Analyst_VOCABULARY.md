@@ -1,11 +1,13 @@
 # Analyst Domain Vocabulary
 
-**Version**: 1.0.0
+**Version**: 1.1.0
 **Status**: Active
 **Owner**: template-analyst-aget
 **Created**: 2026-01-10
+**Updated**: 2026-01-11
 **Scope**: Template vocabulary (DRIVES instance behavior per L481)
 **Archetype**: Analyst
+**Template**: VOCABULARY_TEMPLATE_v3.3
 
 ---
 
@@ -90,6 +92,37 @@ Visualization:
   skos:broader: Analyst_Core_Concepts
   skos:inScheme: Analyst_Vocabulary
 ```
+
+---
+
+## Concept Relationships
+
+```yaml
+relationships:
+  hierarchical:
+    - parent: Analyst_Core_Concepts
+      children: [Data, Pattern, Insight, Metric, Visualization]
+
+  associative:
+    - subject: Data
+      predicate: skos:related
+      object: Pattern
+    - subject: Insight
+      predicate: skos:related
+      object: Visualization
+```
+
+---
+
+## EKO Cross-References
+
+Per AGET_EXECUTABLE_KNOWLEDGE_SPEC.md:
+
+| Vocabulary Term | EKO Term | Relationship |
+|-----------------|----------|--------------|
+| Data | EKO:Information_Asset | skos:exactMatch |
+| Insight | EKO:Knowledge_Asset | skos:closeMatch |
+| Pattern | EKO:Analysis_Pattern | skos:broadMatch |
 
 ---
 

@@ -8,7 +8,7 @@ template:
   name: template-analyst-aget
   archetype: Analyst
   description: Analytical template for data analysis and insights
-  version: 3.3.0
+  version: 3.4.0
   created: "2025-12-27"
   author: private-aget-framework-AGET
   inherits_from: template-advisor-aget

@@ -16,6 +16,8 @@ The Analyst archetype turns **data into actionable insights**. Unlike generic da
 
 **For evaluators**: If you need an AI that can analyze data methodically and communicate findings clearly to different audiences, the Analyst archetype brings analytical rigor to your workflow.
 
+**Domain knowledge that compounds**: Analyst agents build persistent understanding of your data landscape — recurring patterns, baseline metrics, and reporting conventions. Unlike tools that start fresh each session, your agent accumulates analytical context that makes each analysis more focused and each report more insightful.
+
 ---
 
 ## Skills
@@ -93,6 +95,7 @@ python3 -m pytest tests/ -v
 | **Pattern detection** | Manual queries | Automated trend and anomaly identification |
 | **Reporting** | Raw exports | Audience-tailored reports with context |
 | **Vocabulary** | Ad-hoc | Formal ontology (Dataset, Metric, Trend) |
+| **Domain memory** | Starts fresh each session | Accumulates analytical expertise over time |
 
 ---
 

@@ -2,7 +2,7 @@
 
 > Transform data into insights with analysis and reporting capabilities
 
-**Version**: v3.7.0 | **Archetype**: Analyst | **Skills**: 2 specialized + 15 universal
+**Version**: v3.8.0 | **Archetype**: Analyst | **Skills**: 2 specialized + 15 universal
 
 ---
 
@@ -115,7 +115,7 @@ Skills are provided by the template. Agents and rules directories are scaffolded
 
 | Attribute | Value |
 |-----------|-------|
-| **Framework** | [AGET v3.7.0](https://github.com/aget-framework/aget) |
+| **Framework** | [AGET v3.8.0](https://github.com/aget-framework/aget) |
 | **Archetype** | Analyst |
 | **Skills** | 17 total (2 archetype + 15 universal) |
 | **Ontology** | 7 concepts, 3 clusters |

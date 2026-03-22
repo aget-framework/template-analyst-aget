@@ -100,6 +100,7 @@ When facing any substantial change or multi-step task:
 | Create project | /aget-create-project | Starting multi-gate work |
 | Review project | /aget-review-project | Mid-flight assessment |
 | File issue | /aget-file-issue | Reporting bugs or gaps |
+| Enhance spec | /aget-enhance-spec | Improving specification maturity |
 | Check health | /aget-check-health | Verifying agent structure |
 | Analyze data | /aget-analyze-data | Processing data for insights |
 | Generate report | /aget-generate-report | Producing analysis deliverables |

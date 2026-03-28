@@ -100,6 +100,13 @@ class TestAnalystArchetype:
             content = archetype.read_text()
             assert "analyst" in content.lower() or "Analyst" in content
 
+    def test_governance_is_moderate(self):
+        """Analyst has moderate governance for evidence-based work."""
+        archetype = get_template_root() / ".aget" / "persona" / "archetype.yaml"
+        if archetype.exists():
+            content = archetype.read_text().lower()
+            assert "governance_intensity: moderate" in content
+
     def test_evidence_citation_inviolable(self):
         """Analyst must have evidence citation inviolable."""
         # Check archetype for inviolable

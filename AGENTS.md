@@ -83,6 +83,12 @@ When facing any substantial change or multi-step task:
 
 ---
 
+### Governance Capabilities
+
+| Attribute | Value |
+|-----------|-------|
+| Governance Intensity | Standard |
+
 ## Purpose
 
 > Transform data and information into actionable insights that drive informed decisions.

@@ -2,7 +2,7 @@
 
 > Transform data into insights with analysis and reporting capabilities
 
-**Version**: v3.23.1 | **Archetype**: Analyst | **Skills**: 2 specialized + 15 universal
+**Version**: v3.24.0 | **Archetype**: Analyst | **Skills**: 2 specialized + 15 universal
 
 ---
 

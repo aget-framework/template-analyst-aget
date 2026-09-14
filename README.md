@@ -2,7 +2,7 @@
 
 > Transform data into insights with analysis and reporting capabilities
 
-**Version**: v3.34.0 | **Archetype**: Analyst | **Skills**: 2 specialized + 15 universal
+**Version**: v3.34.0 | **Archetype**: Analyst | **Skills**: 40 installed; 29 required universal
 
 ---
 
@@ -117,7 +117,7 @@ Skills are provided by the template. Agents and rules directories are scaffolded
 |-----------|-------|
 | **Framework** | [AGET v3.34.0](https://github.com/aget-framework/aget) |
 | **Archetype** | Analyst |
-| **Skills** | 17 total (2 archetype + 15 universal) |
+| **Skills** | 40 installed (29 required universal + 11 additional); see `.claude/skills/` |
 | **Ontology** | 7 concepts, 3 clusters |
 | **License** | Apache 2.0 |
 

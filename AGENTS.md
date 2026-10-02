@@ -15,7 +15,7 @@ Works with Claude Code, Codex CLI, Gemini CLI, and other CLI coding agents.
 This template creates analyst agents focused on transforming data and information into actionable insights.
 
 ## Project Context
-template-analyst-aget - Analyst AGET template - v3.13.0
+template-analyst-aget - Analyst AGET template - v3.36.0
 
 **Note**: Update this section when instantiating template:
 - Change project name to your analyst agent name
